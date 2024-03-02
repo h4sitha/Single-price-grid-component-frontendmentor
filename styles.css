@@ -31,7 +31,8 @@ button {
     background-color: hsl(71, 73%, 54%);
 }
 
-#top-section {
+#top-section,
+#lower-section section {
     padding: 2.5rem;
 }
 
@@ -42,4 +43,16 @@ main {
 
 section {
     border: 1px solid red;
+}
+
+#lower-section {
+    display: flex;
+}
+
+#lower-section section {
+    width: 100%;
+}
+
+button {
+    width: 100%;
 }

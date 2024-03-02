@@ -56,3 +56,7 @@ section {
 button {
     width: 100%;
 }
+
+#top-section p {
+    line-height: 1.65rem;
+}

@@ -8,6 +8,10 @@ body {
     font-family: "Karla", sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 h2 {
     font-size: 1.1rem;
 }
@@ -25,4 +29,17 @@ button {
     border: none;
     color: white;
     background-color: hsl(71, 73%, 54%);
+}
+
+#top-section {
+    padding: 2.5rem;
+}
+
+main {
+    max-width: 40.625rem;
+    width: 95%;
+}
+
+section {
+    border: 1px solid red;
 }

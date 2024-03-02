@@ -60,3 +60,10 @@ button {
 #top-section p {
     line-height: 1.65rem;
 }
+
+ul {
+    list-style: none;
+    padding: 0;
+    line-height: 1.25rem;
+    font-size: 0.9rem;
+}

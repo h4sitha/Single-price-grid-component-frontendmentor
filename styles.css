@@ -6,6 +6,7 @@ html {
 
 body {
     font-family: "Karla", sans-serif;
+    background-color: hsl(204, 43%, 93%);
 }
 
 * {
@@ -36,13 +37,17 @@ button {
     padding: 2.5rem;
 }
 
+#top-section {
+    background-color: hsl(0, 0%, 98%);
+}
+
 main {
     max-width: 40.625rem;
     width: 95%;
 }
 
 section {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 #lower-section {
@@ -59,6 +64,7 @@ button {
 
 #top-section p {
     line-height: 1.65rem;
+    color: hsl(218, 22%, 67%);
 }
 
 ul {
@@ -66,4 +72,30 @@ ul {
     padding: 0;
     line-height: 1.25rem;
     font-size: 0.9rem;
+}
+
+#top-section h2 {
+    color: hsl(71, 73%, 54%);
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+#lower-section section:first-of-type {
+    background-color: hsl(179, 62%, 43%);
+    color: hsl(0, 0%, 98%);
+}
+
+#lower-section section:last-of-type {
+    background-color: hsl(179, 62%, 47%);
+    color: hsl(0, 0%, 98%);
+}
+
+span#dark {
+    color: hsla(0, 0%, 98%, 0.7);
+}
+
+li {
+    color: hsla(0, 0%, 98%, 0.8);
 }

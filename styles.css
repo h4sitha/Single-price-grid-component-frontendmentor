@@ -105,3 +105,9 @@ span#dark {
 li {
     color: hsla(0, 0%, 98%, 0.8);
 }
+
+#amount-per-month {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}

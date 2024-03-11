@@ -48,10 +48,6 @@ main {
     overflow: hidden;
 }
 
-section {
-    /* border: 1px solid red; */
-}
-
 #lower-section {
     display: flex;
 }
@@ -76,6 +72,7 @@ ul {
     padding: 0;
     line-height: 1.25rem;
     font-size: 0.9rem;
+    margin: 1rem 0 0 0;
 }
 
 #top-section h2 {
@@ -109,5 +106,14 @@ li {
 #amount-per-month {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+#lower-section h2 {
+    margin: -0.125rem 0 0 0;
+}
+
+#lower-section p {
+    margin: 0.375rem 0 1.8125rem 0;
 }

@@ -59,6 +59,8 @@ main {
 button {
     width: 100%;
     border-radius: 0.3125rem;
+    font-weight: 700;
+    box-shadow: 0 0.625rem 1.5625rem hsla(0, 0%, 0%, 0.15);
 }
 
 #top-section p {

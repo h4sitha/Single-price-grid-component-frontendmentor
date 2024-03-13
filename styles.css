@@ -55,10 +55,12 @@ main {
 
 #lower-section {
     display: flex;
+    flex-wrap: wrap;
 }
 
 #lower-section section {
-    width: 100%;
+    min-width: 17rem;
+    flex: 1;
 }
 
 button {

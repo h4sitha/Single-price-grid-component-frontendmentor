@@ -4,6 +4,10 @@ html {
     font-size: 16px;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Karla", sans-serif;
     background-color: hsl(204, 43%, 93%);
@@ -14,43 +18,40 @@ body {
     margin: 0;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-h2 {
-    font-size: 1.18rem;
-}
-
-#amount {
-    font-size: 2rem;
-    font-weight: 600;
-}
-
-button {
-    padding: 0.9rem;
-    font-size: inherit;
-    font-family: inherit;
-    font-weight: 600;
-    border: none;
-    color: white;
-    background-color: hsl(71, 73%, 54%);
-}
-
-section {
-    padding: 2.5rem;
-}
-
-#top-section {
-    background-color: hsl(0, 0%, 98%);
-}
-
 main {
     max-width: 40.625rem;
     width: 95%;
     border-radius: 0.4375rem;
     overflow: hidden;
     box-shadow: 0 0.625rem 1.5625rem hsla(0, 0%, 0%, 0.1);
+}
+
+#top-section {
+    background-color: hsl(0, 0%, 98%);
+}
+
+section {
+    padding: 2.5rem;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+    margin: -0.125rem 0 0 0;
+}
+
+h2 {
+    font-size: 1.18rem;
+}
+
+#top-section p {
+    line-height: 1.65rem;
+    color: hsl(218, 22%, 67%);
+    margin: 0;
+}
+
+#top-section h2 {
+    color: hsl(71, 73%, 54%);
+    margin: 1.4375rem 0 0.5rem 0;
 }
 
 #lower-section {
@@ -63,37 +64,6 @@ main {
     flex: 1;
 }
 
-button {
-    width: 100%;
-    border-radius: 0.3125rem;
-    font-weight: 700;
-    box-shadow: 0 0.625rem 1.5625rem hsla(0, 0%, 0%, 0.15);
-}
-
-#top-section p {
-    line-height: 1.65rem;
-    color: hsl(218, 22%, 67%);
-    margin: 0;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    line-height: 1.25rem;
-    font-size: 0.9rem;
-    margin: 1rem 0 0 0;
-}
-
-#top-section h2 {
-    color: hsl(71, 73%, 54%);
-    margin: 1.4375rem 0 0.5rem 0;
-}
-
-h1 {
-    color: hsl(179, 62%, 43%);
-    margin: -0.125rem 0 0 0;
-}
-
 #lower-section section:first-of-type {
     background-color: hsl(179, 62%, 43%);
     color: hsl(0, 0%, 98%);
@@ -104,12 +74,12 @@ h1 {
     color: hsl(0, 0%, 98%);
 }
 
-span#dark {
-    color: hsla(0, 0%, 98%, 0.7);
+#lower-section h2 {
+    margin: -0.125rem 0 0 0;
 }
 
-li {
-    color: hsla(0, 0%, 98%, 0.8);
+#lower-section p {
+    margin: 0.375rem 0 1.8125rem 0;
 }
 
 #amount-per-month {
@@ -119,12 +89,39 @@ li {
     margin-top: 1rem;
 }
 
-#lower-section h2 {
-    margin: -0.125rem 0 0 0;
+#amount {
+    font-size: 2rem;
+    font-weight: 600;
 }
 
-#lower-section p {
-    margin: 0.375rem 0 1.8125rem 0;
+span#dark {
+    color: hsla(0, 0%, 98%, 0.7);
+}
+
+button {
+    padding: 0.9rem;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: 600;
+    border: none;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    width: 100%;
+    border-radius: 0.3125rem;
+    font-weight: 700;
+    box-shadow: 0 0.625rem 1.5625rem hsla(0, 0%, 0%, 0.15);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    line-height: 1.25rem;
+    font-size: 0.9rem;
+    margin: 1rem 0 0 0;
+}
+
+li {
+    color: hsla(0, 0%, 98%, 0.8);
 }
 
 @media (max-width: 425px) {

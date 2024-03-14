@@ -50,6 +50,7 @@ main {
     width: 95%;
     border-radius: 0.4375rem;
     overflow: hidden;
+    box-shadow: 0 0.625rem 1.5625rem hsla(0, 0%, 0%, 0.1);
 }
 
 #lower-section {
